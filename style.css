@@ -1,0 +1,218 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6ebdc;
+    height: 40px;
+    padding: 10px;
+    box-shadow: 0px 2px rgb(197, 185, 185);
+}
+
+.menu {
+    height: 20px;
+    margin-left: 15px;
+}
+
+.logo {
+    height: 45px;
+}
+
+.button {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    gap: 10px;
+    margin-right: 5%;
+
+}
+
+.signin {
+    background-color: rgb(245, 69, 69);
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 0px;
+    width: 120px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #f6ebdc;
+    margin-top: 2px;
+}
+
+.cart {
+    background-color: rgb(245, 69, 69);
+    height: 30px;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 20px;
+    width: 90px;
+}
+
+.order {
+    margin-left: 11%;
+}
+
+.order>h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pickup {
+    background-color: rgb(235, 35, 35);
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+
+.delivery {
+    background-color: rgb(235, 35, 35);
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+
+.middle>img {
+    width: 700px;
+    margin-right: 7%;
+}
+
+.menuCard1 {
+    display: flex;
+    justify-content: center;
+    background-color: #f6ebdc;
+}
+
+.offer1 {
+    background-color: white;
+    border-radius: 12px;
+    width: 500px;
+    margin-right: 20px;
+    height: 460px;
+}
+.offer1>button{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.offer1>img {
+    width: 430px;
+    border-radius: 12px;
+}
+
+.offer2 {
+    background-color: white;
+    border-radius: 12px;
+    width: 500px;
+    margin-right: 20px;
+    height: 460px;
+}
+.offer2>button{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.offer2>img {
+    width: 430px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: rgb(80, 35, 20);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: rgb(80, 35, 20);
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p>span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.menuCard2 {
+    display: flex;
+    justify-content: center;
+    background-color: #f6ebdc;
+}
+
+.offer3 {
+    background-color: white;
+    border-radius: 12px;
+    width: 500px;
+    margin-right: 20px;
+    height: 460px;
+    margin-top: 17px;
+}
+.offer3>button{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+.offer3>img {
+    width: 430px;
+    border-radius: 12px;
+}
+
+.offer4 {
+    background-color: white;
+    border-radius: 12px;
+    width: 500px;
+    margin-right: 20px;
+    height: 460px;
+    margin-top: 17px;
+}
+.offer4>button{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: red;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.offer4>img {
+    width: 430px;
+    border-radius: 12px;
+}
+
+.foot{
+    background-color:#f6ebdc ;
+}
+.foot>img{
+    width: 400px;
+    margin-top: 40px;
+    position: relative;
+    left: 38%;
+}
